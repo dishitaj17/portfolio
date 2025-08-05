@@ -33,14 +33,13 @@ const Hero = () => {
           <div className="flex justify-center space-x-6 pt-8">
             
             <a 
-              href="#" 
+              href="https://www.linkedin.com/in/dishita-joshi-75a595224" 
               className="text-portfolio-black hover:text-portfolio-red transition-colors duration-300 transform hover:scale-110"
               aria-label="LinkedIn"
             >
               <Linkedin size={24} />
             </a>
-            <a 
-              href="#" 
+            <a  href="mailto:dishitafreelancer@gmail.com" 
               className="text-portfolio-black hover:text-portfolio-red transition-colors duration-300 transform hover:scale-110"
               aria-label="Email"
             >

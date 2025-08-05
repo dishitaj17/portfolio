@@ -9,6 +9,7 @@ const Navigation = () => {
     { name: "Home", href: "#hero" },
     { name: "About", href: "#about" },
     { name: "Projects", href: "#projects" },
+    { name: "Pricing", href: "#price" },
     { name: "Contact", href: "#contact" }
   ];
 
@@ -31,9 +32,9 @@ const Navigation = () => {
                 {item.name}
               </a>
             ))}
-            <Button variant="portfolio" size="sm">
+            <a href="#contact"><Button variant="portfolio" size="sm">
               Hire Me
-            </Button>
+            </Button></a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -61,9 +62,10 @@ const Navigation = () => {
                   {item.name}
                 </a>
               ))}
-              <Button variant="portfolio" size="sm" className="self-start">
-                Hire Me
-              </Button>
+               <a href="#contact"><Button variant="portfolio" size="xl" className="group">
+              Hire Me
+
+            </Button></a>
             </div>
           </div>
         )}

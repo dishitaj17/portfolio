@@ -56,10 +56,7 @@ const About = () => {
                 <span className="text-portfolio-black">Years Experience</span>
                 <span className="font-bold text-portfolio-red">2+</span>
               </div>
-              <div className="flex justify-between">
-                <span className="text-portfolio-black">Happy Clients</span>
-                <span className="font-bold text-portfolio-red">15+</span>
-              </div>
+              
             </div>
           </div>
         </div>

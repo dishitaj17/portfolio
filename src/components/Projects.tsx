@@ -101,12 +101,7 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
-                <div className="flex space-x-3">
-                  <Button variant="portfolio" size="sm">
-                    Live Demo
-                  </Button>
-                  
-                </div>
+                
               </div>
             </div>
           ))}
